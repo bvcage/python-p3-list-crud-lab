@@ -5,7 +5,8 @@ def create_a_list():
     return list([1, 2, 3, 4])
 
 def add_element_to_end_of_list(l, element):
-    return None
+    l.append(element)
+    return l
 
 def add_element_to_start_of_list(l, element):
     return None
